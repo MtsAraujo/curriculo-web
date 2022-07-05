@@ -7,192 +7,168 @@
 }
 
 body{
-    background-color: #8AA6A3;
+    background-color: #E4F2E7;
 }
-
-.main-content{
-    min-height: 100vh;
-    width: 80%;
-    margin: 10px;
+.conteudo-line{
+    min-height: 50vh;
+    width: 68%;
+    margin: 2rem auto;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-}
-
-.left-section{
-    grid-column: span 2;
-    height: 100%;
-    background-color: #015958;
-}
-.right-section{
+} 
+.direita-section{
     grid-column: span 5;
-    background-color: #f7f7f7;
-    height: 100%;
-}
-
-
-.left-content{
-    padding: 2rem 3rem;
+    background-color: #dad0d0;
+    height: 58%;
 }
 .profile{
-    width: 100%;
-    border-bottom: 1px solid #F7f7f7;
+    width: 65%;
+    border-bottom: 2px solid #6d05f4;
 }
 
 .image{
-    width: 100%;
+    width: 120%;
     text-align: center;
 }
 .profile img{
     width: 100%;
-    border-radius: 50%;
-    border: 8px solid #002333;
+    border-radius: 185%;
+    border: 2px solid #573c7a;
     
 }
 
-.name{
+.nome{
     font-size: 2rem;
-    color: white;
+    color:#2D3E40;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 1.2rem 0;
 }
 
-.career{
+.funcao{
     font-size: 1.2rem;
-    color: #BFBFBF;
+    color: #2D3E40;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
     padding-bottom: 1rem;
 }
 
-.main-title{
+.main-titulo{
     font-size: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #f7f7f7ec;
-    padding-top: 3rem;
+    color: #6a4c91;
+    padding-top: 2rem;
 }
 
 .contact-info ul{
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
-
 .contact-info ul li{
-    padding: .4rem 0;
-    display: flex;
-    align-items: center;
-    color: #BFBFBF;
+    display: grid;
+    grid-template-columns: repeat(1, 10fr);
+    padding: .1rem 0;
+    color: #387373;
 }
-.contact-info ul li i{
-    padding-right: 1rem;
-    font-size: 1.2rem;
-    color: #8AA6A3;
-}
-
 .skills-section ul{
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 .skills-section ul li{
     display: grid;
-    grid-template-columns: repeat(1, 2fr);
-    padding: .6rem 0;
+    grid-template-columns: repeat(1, 10fr);
+    padding: .1rem 0;
 }
 
-.progress-bar{
+.progresso-bar{
     width: 84%;
     height: .4rem;
-    background-color: #127369;
+    background-color: #b4b4b4;
     position: relative;
     border-radius: 12px;
 }
-.progress{
+.progresso{
     height: 100%;
     position: absolute;
     left: 0;
-    background-color: #8AA6A3;
+    background-color: #6d05f4;
     border-radius: 12px;
 }
-.ps-progress{
-    width: 40%;
+.premiere-progresso{
+    width: 85%;
 }
-.af-progress{
-    width: 63%;
+.ps-progresso{
+    width: 90%;
 }
-.html-progress{
-    width: 42%;
+.java-progresso{
+    width: 20%;
 }
-.il-progress{
-    width: 42%;
+.htmlcss-progresso{
+    width: 65%;
 }
-.c-progress{
-    width: 50%;
+.meta-progresso{
+    width: 70%;
 }
-.n-progress{
-    width: 5%;
-}
-.w-progress{
-    width: 12%;
+.google-progresso{
+    width: 85%;
 }
 
-
-.skill-title{
+.skill-titulo{
     text-transform: uppercase;
-    color: #f7f7f7;
+    color: #64517b;
     font-size: 1rem;
 }
 
-.sub-title{
+.sub-titulo{
     padding-top: 2rem;
     font-size: 1.2rem;
     text-transform: uppercase;
-    color: #f7f7f7;
+    color: #64517b;
 }
 
 .sub-para{
-    color: #f7f7f7;
+    color: #2D3E40;
     padding: .4rem 0;
 }
-
-.referencias-section li{
-    color: #ccc;
-    padding: .1rem 0;
-}
-.referencias-section li i{
+.celular{
     padding-right: .5rem;
     font-size: 1.2rem;
-    color: #8AA6A3;
+    color: #2D3E40;
 }
 
-.right-main-content{
+.direita-main-content{
     padding: 2rem 3rem;
 }
 
 
-.right-title{
+.direita-section{
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #127369;
+    color: #64517b;
     margin-bottom: 1.2rem;
     position: relative;
 }
 
-.right-title::after{
-    content: "";
+.direita-titulo::after{
     position: absolute;
     width: 60%;
     height: .2rem;
-    background-color: #ccc;
+    background-color: #b01616;
     border-radius: 12px;
     right: 0;
     top: 50%;
     transform: translateY(-50%);
 }
-
-.para{
+.evento{
+    padding-right: .5rem;
+    font-size: 1.2rem;
+    width: 85%;
+    color: #6d05f4;
+}
+.email{
     line-height: 1.6rem;
-    color: #718096;
+    color: #64517b;
     font-size: 1.1rem;
 }
 
@@ -205,32 +181,25 @@ body{
     grid-template-columns: repeat(2, 1fr);
 }
 
-.tl-title{
+.tl-titulo{
     letter-spacing: 1px;
     font-size: 1.3rem;
-    color: #002333;
+    color: #64517b;
     text-transform: uppercase;
 }
-.tl-title-2{
-    letter-spacing: 1px;
-    font-size: 1.3rem;
-    color: #127369;
-    text-transform: uppercase;
-}
-
 .tl-content{
-    border-left: 1px solid #ccc;
+    border-left: 1px solid rgb(32, 246, 4);
     padding-left: 2rem;
     position: relative;
     padding-bottom: 2rem;
 }
 
-.tl-title-2::before{
+.tl-titulo-2::before{
     content: "";
     position: absolute;
     width: .7rem;
     height: .7rem;
-    background-color: #127369;
+    background-color: #6d05f4;
     border-radius: 50%;
     transform: translateX(-50%);
     left: 0;
@@ -238,12 +207,12 @@ body{
 
 /*Media Querries*/
 @media screen and (max-width:823px){
-    .right-title::after{
+    .direita-title::after{
         width: 40%;
     }
 }
 @media screen and (max-width:681px){
-    .right-title::after{
+    .direita-title::after{
         width: 30%;
     }
 }
@@ -253,10 +222,10 @@ body{
     }
 }
 @media screen and (max-width:780px){
-    .left-section{
+    .esquerda-section{
         grid-column: span 3;
     }
-    .right-section{
+    .direita-section{
         grid-column: span 4;
     }
 }
@@ -277,3 +246,4 @@ body{
     .name{
         font-size: 1.5rem;
     }
+}
