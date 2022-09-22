@@ -5,7 +5,7 @@ const sobreSkill = [
                     '<p><Strong>CSS</Strong></p> <br> <p>É um mecanismo para adicionar estilo a um documento web.</p> <br>',
                     '<p><Strong>JavaScript</Strong></p> <br> <p>É uma linguagem de programação. Juntamente com HTML e CSS, é uma das três principais tecnologias da web.</p> <br>',
                     '<p><Strong>Git</Strong></p> <br> <p>É um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software.</p> <br>',
-                    '<p><Strong>PHP</Strong></p> <br> <p>O PHP é uma linguagem de programação voltada originalmente para desenvolvimento de sites e aplicações web.</p> <br>',
+                    '<p><Strong>ReactJs</Strong></p> <br> <p>O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.</p> <br>',
                     '<p><Strong>Bootstrap</Strong></p> <br> <p>Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web</p> <br>'
                     
 ]
