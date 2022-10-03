@@ -17,6 +17,7 @@
 <body data-bs-spy="scroll" data-bs-target="menu">
   <div class="container">
     <!--Navbar-->
+  
     <nav id="menu" class="sticky-top d-flex justify-content-center py-3 fw-bold mb-5 p-5 bg-light ">
       <img src="img/formato-html.ico" alt="" class="bi bi-code-slash mt-2 d-none d-md-inline">
       <div class="form-check form-switch ms-auto mt-2 me-5">
@@ -173,9 +174,8 @@
         </div>
       </div>
 
-      <form class="p-5 rounded-3 shadow" action="https://formsubmit.co/matheusddsilva@gmail.com" method="POST">
-        <input type="hidden" name="_next" value="http://127.0.0.1:5500/EmailEnviado.html">
-        <input type="hidden" name="_captcha" value="false">
+      <form class="p-5 rounded-3 shadow" action="email.php" method="POST">
+
         <div class="row">
           <div class="form-group col-md-6">
             <label for="nome">Nome</label>
@@ -189,7 +189,7 @@
           </div>
           <div class="col-md-6">
             <label for="Mensagem">Mensagem</label>
-            <textarea placeholder="Sua mensagem" class="rounded-2 form-control field" name="Mensagem" id="Mensagem"
+            <textarea placeholder="Sua mensagem" class="rounded-2 form-control field" name="mensagem" id="mensagem"
               cols="80" rows="10"></textarea>
           </div>
         </div>
