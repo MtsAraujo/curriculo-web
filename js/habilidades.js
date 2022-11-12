@@ -4,7 +4,7 @@ const sobreSkill = [
                     '<p><Strong>HTML</Strong></p> <br> <p>É uma linguagem de marcação utilizada na construção de páginas na Web.</p> <br>',
                     '<p><Strong>CSS</Strong></p> <br> <p>É um mecanismo para adicionar estilo a um documento web.</p> <br>',
                     '<p><Strong>JavaScript</Strong></p> <br> <p>É uma linguagem de programação. Juntamente com HTML e CSS, é uma das três principais tecnologias da web.</p> <br>',
-                    '<p><Strong>Git</Strong></p> <br> <p>É um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software.</p> <br>',
+                    '<p><Strong>SQL</Strong></p> <br> <p>O SQL é uma linguagem padrão para manipulação de registros em bancos de dados relacionais. A sigla SQL vem dos termos em inglês “Structured Query Language”.</p> <br>',
                     '<p><Strong>PHP</Strong></p> <br> <p>PHP é uma linguagem usada para o desenvolvimento de aplicações presentes e atuantes no lado do servidor, capazes de gerar conteúdo dinâmico na World Wide Web.</p> <br>',
                     '<p><Strong>Bootstrap</Strong></p> <br> <p>Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web</p> <br>'
                     
