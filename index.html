@@ -121,10 +121,10 @@
             <div class="card-body">
               <h2 class="fs-3 mb-3 fw-bolder">Currículo Web</h2>
               <p class="card-text">O portfólio foi construído para mostrar um pouco sobre meus projetos e uma breve
-                descrição sobre mim. Foi Desenvolvido com HTML, CSS, JavaScript, bootstrap.</p>
+                descrição sobre mim. Repossivo e com acessibilidade foi desenvolvido com HTML, CSS, JavaScript, bootstrap.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a target="_blank" href="https://github.com/MtsAraujo" class="btn btn-primary fw-bold mt-2">Acessar
+                  <a target="_blank" href="https://github.com/MtsAraujo/curriculo-web" class="btn btn-primary fw-bold mt-2">Acessar
                     no Git Hub</a>
                 </div>
               </div>
@@ -133,15 +133,13 @@
         </div>
         <div class="col-md-4 mb-5">
           <div class="card mb-4 h-100 box-shadow shadow bg-light">
-            <img class="card-img-top" src="img/Tarot.png" alt="Tarot">
+            <img class="card-img-top" src="img/login.png" alt="Tarot">
             <div class="card-body">
-              <h2 class="fs-3 mb-3 fw-bolder">Site para Taróloga</h2>
-              <p class="card-text">Site que desenvolvi para minha mãe que trabalha como tarologa. Desenvolvido com HTML,
-                CSS, JavaScript.
-                Onde ele foi feito na mão sem ajuda de bibliotecas ou frameworks.</p>
+              <h2 class="fs-3 mb-3 fw-bolder">Página de Login</h2>
+              <p class="card-text">Uma pagina de login feita com HTML, CSS, JavaScript, PHP, Bootstrap, SQL.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a target="_blank" href="https://github.com/MtsAraujo" class="btn btn-primary fw-bold mt-2">Acessar
+                  <a target="_blank" href="https://github.com/MtsAraujo/pagina-de-login" class="btn btn-primary fw-bold mt-2">Acessar
                     no Git Hub</a>
                 </div>
               </div>
@@ -156,7 +154,7 @@
               <p class="card-text">Uma Calculadora feita com HTML,CSS, e principalmente JavaScript.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a target="_blank" href="https://github.com/MtsAraujo" class="btn btn-primary fw-bold mt-2">Acessar no
+                  <a target="_blank" href="https://github.com/MtsAraujo/Calculadora" class="btn btn-primary fw-bold mt-2">Acessar no
                     Git Hub</a>
                 </div>
               </div>
@@ -197,7 +195,18 @@
       </form>
     </section>
     <!--Contatos-->
-
+    <!--Acessibilidade-->
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!--Acessibilidade-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
       crossorigin="anonymous"></script>
